@@ -22,3 +22,30 @@ p {
     font-size: 1em;
     font-style: italic;
 }
+
+.custom_p {
+    color: aqua;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.custom_button {
+    all: unset;
+    background-color: #9146FF;
+    padding: 1em 2em;
+    border: 3px solid #121212;
+    border-radius: 2.5em;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.custom_button:hover {
+    background-color: #602eac;
+}
+
+.custom_button:active {
+    color: #602eac;
+    border: 3px solid #602eac;
+    background-color: #FFFFFF;
+}
