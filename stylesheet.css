@@ -21,6 +21,8 @@ h1 {
 p {
     font-size: 1em;
     font-style: italic;
+    padding: 2em 2em;
+    border: 3px solid white;
 }
 
 .custom_p {
@@ -48,4 +50,11 @@ p {
     color: #602eac;
     border: 3px solid #602eac;
     background-color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    width: 40em;
+    justify-content: space-between;
+    margin-bottom: 2em;
 }
