@@ -42,14 +42,25 @@ p {
     cursor: pointer;
 }
 
-.custom_button:hover {
+/* .custom_button:hover {
     background-color: #602eac;
-}
+} */
 
 .custom_button:active {
     color: #602eac;
     border: 3px solid #602eac;
     background-color: #FFFFFF;
+}
+
+.btn_animate {
+    transform: scale(1);
+    transition-duration: 400ms;
+}
+
+.btn_animate:hover {
+    transform: scale(1.15);
+    background-color: #602eac;
+
 }
 
 .container {
